@@ -1,4 +1,4 @@
-### Olá!👋 Aqui é o Rafael Dantas, sou engenheiro eletricista e desenvolvedor de sistemas embarcados 
+### Olá!👋 Aqui é o Rafael Dantas.
 
 <!--
 **orafaeldantas/orafaeldantas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
