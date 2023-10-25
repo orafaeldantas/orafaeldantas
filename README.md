@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 </div>  
 
 ##
-
+<!--
 <div style="display: inline_block"><br>
   <img align="center" alt="Rafael-Arduino" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original-wordmark.svg">
   <img align="center" alt="Rafael-C" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg">
@@ -29,7 +29,7 @@ Here are some ideas to get you started:
   <img align="center" alt="Rafael-Linux" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/putty/putty-original.svg">
   
 </div>
-
+-->
 
 
 
