@@ -17,12 +17,12 @@ Here are some ideas to get you started:
 
 ### 👋 Olá! Eu sou o Rafael
 
-🔭 Atualmente estudando Engenharia de Software e Ciência de Dados  
-🌱 Aprendendo Python e SQL  
-⚙️ Ferramentas: Python | Pandas | Git | VS Code | Linux 
-⚡ Desenvolvo projetos de IoT nas horas vagas
-🎸 Rockeiro de coração — fã de Iron Maiden e Black Sabbath  
-📫 Contato: [www.linkedin.com/in/orafaeldantas](#)
+🔭 Atualmente estudando Engenharia de Software e Ciência de Dados <br/>
+🌱 Aprendendo Python e SQL <br/> 
+⚙️ Ferramentas: Python | Pandas | Git | VS Code | Linux <br/>
+⚡ Desenvolvo projetos de IoT nas horas vagas <br/>
+🎸 Rockeiro de coração — fã de Iron Maiden e Black Sabbath <br/> 
+📫 Contato: [www.linkedin.com/in/orafaeldantas](#) <br/>
 
 ##
 <!--
