@@ -15,9 +15,14 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<div>
-  <img align="center" alt="Rafael-Gif" height="250" width="400" src="https://github.com/orafaeldantas/orafaeldantas/blob/main/A7xS.gif">
-</div>  
+### 👋 Olá! Eu sou o Rafael
+
+🔭 Atualmente estudando Engenharia de Software e Ciência de Dados  
+🌱 Aprendendo Python e SQL  
+⚙️ Ferramentas: Python | Pandas | Git | VS Code | Linux 
+⚡ Desenvolvo projetos de IoT nas horas vagas
+🎸 Rockeiro de coração — fã de Iron Maiden e Black Sabbath  
+📫 Contato: [www.linkedin.com/in/orafaeldantas](#)
 
 ##
 <!--
