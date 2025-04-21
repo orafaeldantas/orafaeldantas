@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 📫 Contato: [www.linkedin.com/in/orafaeldantas](#) <br/>
 
 <div>
-   <img align="center" alt="Rafael-Gif" height="250" width="400" src="https://github.com/orafaeldantas/orafaeldantas/blob/main/programmingGif.gif">
+   <img align="center" alt="Rafael-Gif" height="250" width="600" src="https://github.com/orafaeldantas/orafaeldantas/blob/main/programmingGif.gif">
  </div>  
 
 ##
