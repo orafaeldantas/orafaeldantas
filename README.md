@@ -23,6 +23,10 @@ Here are some ideas to get you started:
 🎸 Rockeiro de coração — fã de Iron Maiden e Black Sabbath <br/> 
 📫 Contato: [www.linkedin.com/in/orafaeldantas](#) <br/>
 
+<div>
+   <img align="center" alt="Rafael-Gif" height="250" width="400" src="https://github.com/orafaeldantas/orafaeldantas/blob/main/programmingGif.gif">
+ </div>  
+
 ##
 <!--
 <div style="display: inline_block"><br>
