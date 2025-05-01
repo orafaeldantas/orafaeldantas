@@ -48,8 +48,8 @@ Estou construindo minha carreira com uma base sólida em **engenharia de softwar
 </div>
 
 <div align="center">
-  <img width="400px" height="180px" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=orafaeldantas&theme=radical" />
-  <img width="400px" height="180px" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=orafaeldantas&theme=radical" />
+  <img height="180px" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=orafaeldantas&theme=radical" />
+  <img height="180px" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=orafaeldantas&theme=radical" />
 </div>
 
 
