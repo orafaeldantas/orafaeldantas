@@ -64,7 +64,7 @@ jobs:
       - name: Configurar Git
         run: |
           git config --global user.name "orafaeldantas"
-          git config --global user.email "rafael.hfdantas@outlook.com"  # Seu e-mail do GitHub
+          git config --global user.email "rafael.hfdantas@outlook.com"
 
       - name: Verificar se a branch output existe
         run: |
@@ -79,5 +79,3 @@ jobs:
           else
             echo "⚠️ A pasta dist/ não existe. Nada para commitar."
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
