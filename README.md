@@ -13,10 +13,14 @@ Estou construindo minha carreira com uma base sólida em **engenharia de softwar
 
 - 🎯 Transição de carreira em andamento
 - 🧠 Estudando Engenharia de Software, Python e Linux
-- 🤖 Explorando projetos com itegração de Iot, backend e ciência de dados
+- 🤖 Explorando projetos com itegração de IoT, backend e ciência de dados
 - 💡 Apaixonado por aprender e resolver problemas do mundo real com tecnologia
 
 ---
+
+### 📊 Detalhes do perfil
+
+![Resumo do perfil](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=orafaeldantas&theme=radical)
 
 ### 🛠️ Tecnologias que uso
 
