@@ -22,12 +22,12 @@ Estou construindo minha carreira com uma base sólida em **engenharia de softwar
 
 <div align="center">
  ![Resumo do perfil](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=orafaeldantas&theme=radical)
- <br>
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/orafaeldantas/orafaeldantas/output/dist/dark.svg" />
-   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/orafaeldantas/orafaeldantas/output/dist/light.svg" />
-   <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/orafaeldantas/orafaeldantas/output/dist/dark.svg" />
- </picture>
+  <br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/orafaeldantas/orafaeldantas/output/dist/dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/orafaeldantas/orafaeldantas/output/dist/light.svg" />
+    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/orafaeldantas/orafaeldantas/output/dist/dark.svg" />
+  </picture>
  </div>
 
 
