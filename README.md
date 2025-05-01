@@ -43,8 +43,8 @@ Estou construindo minha carreira com uma base sólida em **engenharia de softwar
 ### 📈 Estatísticas
 
 <div align="center">
-  <img width="400px" height="180px" src="https://github-readme-stats.vercel.app/api?username=orafaeldantas&show_icons=true&theme=radical" />
-  <img width="400px" height="180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=orafaeldantas&layout=compact&theme=radical" />
+  <img height="180px" src="https://github-readme-stats.vercel.app/api?username=orafaeldantas&show_icons=true&theme=radical" />
+  <img height="180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=orafaeldantas&layout=compact&theme=radical" />
 </div>
 
 <div align="center">
