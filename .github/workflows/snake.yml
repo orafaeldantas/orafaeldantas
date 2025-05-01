@@ -20,7 +20,12 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Listar arquivos gerados
+      - name: Listar arquivos na pasta do repositório
+        run: |
+          echo "Arquivos no repositório após geração:"
+          ls -la || echo "Erro ao listar arquivos"
+
+      - name: Listar arquivos gerados na pasta dist/
         run: |
           echo "Arquivos em dist/"
           ls -la dist || echo "Pasta dist não encontrada"
