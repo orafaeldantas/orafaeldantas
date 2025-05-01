@@ -1,4 +1,3 @@
-<h1 align="center">Olá, eu sou o Rafael 👋</h1>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=30&pause=1000&color=FFA500&background=1992FF00&width=435&lines=Hello!+Welcome+to+my+profile.;My+name+is+Rafael+Dantas.;Feel+Free!)](https://git.io/typing-svg)
 
