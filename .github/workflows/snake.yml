@@ -75,7 +75,7 @@ jobs:
           if [ -d "dist" ]; then
             git add dist/
             git commit -m "Atualiza animação da cobrinha [automático]" || echo "Nada novo para commitar"
-            git push https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/orafaeldantas/orafaeldantas.git HEAD:output
+            git push https://github-actions:${{ secrets.GH_TOKEN }}@github.com/orafaeldantas/orafaeldantas.git HEAD:output
           else
             echo "⚠️ A pasta dist/ não existe. Nada para commitar."
           fi
