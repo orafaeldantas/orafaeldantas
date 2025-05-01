@@ -11,7 +11,7 @@
 
 ### 🚀 About Me
 
-I'm a developer passionate about technology, focused on projects with **ESP32**, **Flask**, and **HTML**.  
+I'm a developer passionate about technology, focused on projects with **ESP32**, **Python**, and **HTML**.  
 I'm building my career with a solid foundation in **Software Engineering** to apply it in the field of **Data Science**.
 
 - 🎯 Currently transitioning my career
