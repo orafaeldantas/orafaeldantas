@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Executa todos os dias à meia-noite
+    - cron: "0 0 * * *"  # Executa todos os dias
   push:
     branches:
       - main
@@ -20,8 +20,10 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Verificar arquivos gerados
-        run: ls -la dist/
+      - name: Listar arquivos gerados
+        run: |
+          echo "Arquivos em dist/"
+          ls -la dist || echo "Pasta dist não encontrada"
 
       - name: Upload dos artefatos
         uses: actions/upload-artifact@v4
@@ -32,7 +34,7 @@ jobs:
   commit-snake:
     needs: generate-snake
     runs-on: ubuntu-latest
-    name: Commit da Cobrinha no Repositório
+    name: Commit da cobrinha no repositório
     steps:
       - name: Baixar artefatos
         uses: actions/download-artifact@v4
@@ -41,23 +43,29 @@ jobs:
           path: dist/
 
       - name: Verificar conteúdo baixado
-        run: ls -la dist/
+        run: |
+          echo "Conteúdo de dist após download:"
+          ls -la dist || echo "Nada foi baixado"
 
       - name: Checkout do repositório
         uses: actions/checkout@v3
         with:
-          ref: output  # Certifique-se de que a branch 'output' existe
+          ref: output
           clean: false
 
       - name: Configurar Git
         run: |
           git config --global user.name "orafaeldantas"
-          git config --global user.email "rafael.hfdantas@outlook.com"  # Troque pelo seu e-mail GitHub
+          git config --global user.email "rafael.hfdantas@outlook.com"
 
       - name: Commit e push da cobrinha
         run: |
-          git add dist/
-          git commit -m "Atualiza animação da cobrinha [automático]" || echo "Nada para commitar"
-          git push https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/orafaeldantas/orafaeldantas.git HEAD:output
+          if [ -d "dist" ]; then
+            git add dist/
+            git commit -m "Atualiza animação da cobrinha [automático]" || echo "Nada novo para commitar"
+            git push https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/orafaeldantas/orafaeldantas.git HEAD:output
+          else
+            echo "⚠️ A pasta dist/ não existe. Nada para commitar."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
