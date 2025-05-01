@@ -1,6 +1,7 @@
 <br>
 <div align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=40&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&height=70&lines=Hello!+Welcome.;My+name+is+Rafael.;Feel+Free!" alt="Typing SVG" /></a>
+  <!-- https://github.com/DenverCoder1/readme-typing-svg?tab=readme-ov-file -->
 </div>  
 <br>
 <p align="center">
