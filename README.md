@@ -71,5 +71,9 @@ Estou construindo minha carreira com uma base sólida em **engenharia de softwar
 ---
 
 <p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" />
+</p>
+
+<p align="center">
   Feito com 💻 e paixão por aprendizado contínuo.
 </p>
