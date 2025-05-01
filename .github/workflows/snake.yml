@@ -68,7 +68,7 @@ jobs:
 
       - name: Verificar se a branch output existe
         run: |
-          git branch -r
+          git branch -r 
 
       - name: Commit e push da cobrinha
         run: |
