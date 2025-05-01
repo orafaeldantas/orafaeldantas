@@ -1,44 +1,57 @@
+<h1 align="center">Olá, eu sou o Rafael 👋</h1>
 
-<!--
-**orafaeldantas/orafaeldantas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Engenheiro de Software em formação | Focado em IoT, Python e Backend
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 Sobre mim
 
-### 👋 Olá! Eu sou o Rafael
+Sou um desenvolvedor apaixonado por tecnologia, focado em projetos com **ESP32**, **Flask** e **HTML**.  
+Estou construindo minha carreira com uma base sólida em **engenharia de software** para aplicar na área de **Ciência de Dados**.
 
-🔭 Atualmente estudando Engenharia de Software e Ciência de Dados <br/>
-🌱 Aprendendo Python e SQL <br/> 
-⚙️ Ferramentas: Python | Pandas | Git | VS Code | Linux <br/>
-⚡ Desenvolvo projetos de IoT nas horas vagas <br/>
-🎸 Rockeiro de coração — fã de Iron Maiden e Black Sabbath <br/> 
-📫 Contato: [www.linkedin.com/in/orafaeldantas](#) <br/>
+- 🎯 Transição de carreira em andamento
+- 🧠 Estudando Engenharia de Software, Python e Linux
+- 🤖 Explorando projetos com itegração de Iot, backend e ciência de dados
+- 💡 Apaixonado por aprender e resolver problemas do mundo real com tecnologia
 
-<div>
-   <img align="center" alt="Rafael-Gif" height="250" width="600" src="https://github.com/orafaeldantas/orafaeldantas/blob/main/programmingGif.gif">
- </div>  
+---
 
-##
-<!--
-<div style="display: inline_block"><br>
-  <img align="center" alt="Rafael-Arduino" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original-wordmark.svg">
-  <img align="center" alt="Rafael-C" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg">
-  <img align="center" alt="Rafael-C++" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg">
-  <img align="center" alt="Rafael-Linux" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
-  <img align="center" alt="Rafael-Linux" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/putty/putty-original.svg">
-  
+### 🛠️ Tecnologias que uso
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask)
+![ESP32](https://img.shields.io/badge/ESP32-black?style=for-the-badge&logo=espressif)
+![HTML5](https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+---
+
+### 📈 Estatísticas
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=orafaeldantas&show_icons=true&theme=radical" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=orafaeldantas&layout=compact&theme=radical" />
 </div>
--->
 
+---
 
+### 📌 Projetos em destaque
 
+- 🔒 [Autenticação com Flask e ESP32](https://github.com/orafaeldantas/automacao-rfid-esp32-pep) — sistema de automação com RFID usando ESP32 + API Python
+- 🧪 [Projeto de Teste com HTML + Flask] — exemplo de frontend se comunicando com backend REST
+- 📦 [Repositórios de estudo] — onde estou documentando minha jornada de aprendizado
 
+---
+
+### 📬 Conecte-se comigo
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/seu-perfil-aqui)
+
+---
+
+<p align="center">
+  Feito com 💻 e paixão por aprendizado contínuo.
+</p>
