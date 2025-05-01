@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Geração da Cobrinha
     steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
       - name: Gera a cobrinha
         uses: Platane/snk@v3
         with:
@@ -20,11 +23,11 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Listar arquivos na pasta do repositório
+      - name: Listar arquivos no repositório
         run: |
           echo "Arquivos no repositório após geração:"
           ls -la || echo "Erro ao listar arquivos"
-
+      
       - name: Listar arquivos gerados na pasta dist/
         run: |
           echo "Arquivos em dist/"
@@ -61,7 +64,7 @@ jobs:
       - name: Configurar Git
         run: |
           git config --global user.name "orafaeldantas"
-          git config --global user.email "rafael.hfdantas@outlook.com"  # Troque pelo seu e-mail do GitHub
+          git config --global user.email "rafael.hfdantas@outlook.com"  # Seu e-mail do GitHub
 
       - name: Verificar se a branch output existe
         run: |
@@ -77,4 +80,4 @@ jobs:
             echo "⚠️ A pasta dist/ não existe. Nada para commitar."
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
