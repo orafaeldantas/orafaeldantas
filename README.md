@@ -1,7 +1,7 @@
 
-<p align="center>
+<div align="center>
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=40&pause=1000&color=FFA500&background=1992FF00&vCenter=true&width=435&lines=Hello!+Welcome.;My+name+is+Rafael.;Feel+Free!" alt="Typing SVG" /></a>
-</p>
+</div>
 
 <p align="center">
   Engenheiro de Software em formação | Focado em IoT, Python e Backend 
