@@ -34,7 +34,7 @@ jobs:
   commit-snake:
     needs: generate-snake
     runs-on: ubuntu-latest
-    name: Commit da cobrinha no repositório
+    name: Commit da Cobrinha no repositório
     steps:
       - name: Baixar artefatos
         uses: actions/download-artifact@v4
@@ -56,7 +56,11 @@ jobs:
       - name: Configurar Git
         run: |
           git config --global user.name "orafaeldantas"
-          git config --global user.email "rafael.hfdantas@outlook.com"
+          git config --global user.email "rafael.hfdantas@outlook.com"  # Troque pelo seu e-mail do GitHub
+
+      - name: Verificar se a branch output existe
+        run: |
+          git branch -r
 
       - name: Commit e push da cobrinha
         run: |
