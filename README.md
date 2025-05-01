@@ -47,7 +47,6 @@ Estou construindo minha carreira com uma base sólida em **engenharia de softwar
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=orafaeldantas&layout=compact&theme=radical" />
 </div>
 
-<hr style="border: 0.3px solid rgba(255, 255, 255, 0.1); width: 30%; margin: 12px auto;" />
 
 
 <div align="center">
