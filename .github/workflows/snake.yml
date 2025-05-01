@@ -20,6 +20,9 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Verificar arquivos gerados
+        run: ls -la dist/
+
       - name: Upload dos artefatos
         uses: actions/upload-artifact@v4
         with:
@@ -29,13 +32,16 @@ jobs:
   commit-snake:
     needs: generate-snake
     runs-on: ubuntu-latest
-    name: Commita a cobrinha no repositório
+    name: Commit da Cobrinha no Repositório
     steps:
       - name: Baixar artefatos
         uses: actions/download-artifact@v4
         with:
           name: snake-artifacts
           path: dist/
+
+      - name: Verificar conteúdo baixado
+        run: ls -la dist/
 
       - name: Checkout do repositório
         uses: actions/checkout@v3
@@ -46,7 +52,7 @@ jobs:
       - name: Configurar Git
         run: |
           git config --global user.name "orafaeldantas"
-          git config --global user.email "rafael.hfdantas@outlook.com"  # Troque pelo seu email do GitHub
+          git config --global user.email "rafael.hfdantas@outlook.com"  # Troque pelo seu e-mail GitHub
 
       - name: Commit e push da cobrinha
         run: |
