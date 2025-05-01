@@ -22,7 +22,7 @@ Estou construindo minha carreira com uma base sólida em **engenharia de softwar
 
 ![Resumo do perfil](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=orafaeldantas&theme=radical)
 <br>
-![snake animation](https://github.com/orafaeldantas/orafaeldantas/blob/output/dist/github-contribution-grid-snake.svg)
+![snake animation](https://github.com/orafaeldantas/orafaeldantas/blob/output/dist/github-user-contribution.svg)
 
 
 ### 🛠️ Tecnologias que uso
