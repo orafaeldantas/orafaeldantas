@@ -66,13 +66,13 @@ Estou construindo minha carreira com uma base sólida em **engenharia de softwar
 
 - 🔒 [Autenticação com Flask e ESP32](https://github.com/orafaeldantas/automacao-rfid-esp32-pep) — sistema de automação com RFID usando ESP32 + API Python
 - 🧪 [Projeto de Teste com HTML + Flask] — exemplo de frontend se comunicando com backend REST
-- 📦 [Repositórios de estudo] — onde estou documentando minha jornada de aprendizado
+- 📦 [Repositórios de estudo](https://github.com/orafaeldantas/curso-python) — onde estou documentando minha jornada de aprendizado
 
 ---
 
 ### 📬 Conecte-se comigo
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/seu-perfil-aqui)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/orafaeldantas/)
 
 ---
 
