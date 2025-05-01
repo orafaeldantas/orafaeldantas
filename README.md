@@ -19,15 +19,11 @@ Estou construindo minha carreira com uma base sólida em **engenharia de softwar
 ---
 
 ### 📊 Detalhes do perfil
-<p align="center">
-![Resumo do perfil](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=orafaeldantas&theme=radical)
-</p>
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=orafaeldantas&theme=radical" alt="Resumo do perfil" />
 </p>
-
-
+<br>
 <div align="center"> 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/orafaeldantas/orafaeldantas/output/dist/dark.svg" />
