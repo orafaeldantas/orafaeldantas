@@ -4,9 +4,9 @@
   <!-- https://github.com/DenverCoder1/readme-typing-svg?tab=readme-ov-file -->
 </div>  
 <br>
-<p align="center">
+<h3 align="center">
   Software Engineer in training | Focused on IoT, Python and Backend
-</p>
+</h3>
 
 ---
 
