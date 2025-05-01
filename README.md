@@ -1,5 +1,6 @@
 <h1 align="center">Olá, eu sou o Rafael 👋</h1>
-[<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFA500&background=1992FF00&width=435&lines=Hello!+Welcome+to+my+profile.;My+name+is+Rafael+Dantas.;Feel+Free!" alt="Typing SVG" /></a>](https://readme-typing-svg.demolab.com/demo/?weight=900&size=45&color=FFA500&background=1992FF00&lines=Hello!+Welcome+to+my+profile.;My+name+is+Rafael+Dantas.;Feel+Free!)
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=45&pause=1000&color=FFA500&background=1992FF00&width=435&lines=Hello!+Welcome+to+my+profile.;My+name+is+Rafael+Dantas.;Feel+Free!" alt="Typing SVG" /></a>
 
 <p align="center">
   Engenheiro de Software em formação | Focado em IoT, Python e Backend 
