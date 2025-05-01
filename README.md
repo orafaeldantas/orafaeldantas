@@ -1,31 +1,30 @@
-
 <br>
 <div align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=40&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&height=70&lines=Hello!+Welcome.;My+name+is+Rafael.;Feel+Free!" alt="Typing SVG" /></a>
 </div>  
 <br>
 <p align="center">
-  Engenheiro de Software em formação | Focado em IoT, Python e Backend 
+  Software Engineer in training | Focused on IoT, Python and Backend
 </p>
 
 ---
 
-### 🚀 Sobre mim
+### 🚀 About Me
 
-Sou um desenvolvedor apaixonado por tecnologia, focado em projetos com **ESP32**, **Flask** e **HTML**.  
-Estou construindo minha carreira com uma base sólida em **engenharia de software** para aplicar na área de **Ciência de Dados**.
+I'm a developer passionate about technology, focused on projects with **ESP32**, **Flask**, and **HTML**.  
+I'm building my career with a solid foundation in **Software Engineering** to apply it in the field of **Data Science**.
 
-- 🎯 Transição de carreira em andamento
-- 🧠 Estudando Engenharia de Software, Python e Linux
-- 🤖 Explorando projetos com itegração de IoT, backend e ciência de dados
-- 💡 Apaixonado por aprender e resolver problemas do mundo real com tecnologia
+- 🎯 Currently transitioning my career
+- 🧠 Studying Software Engineering, Python, and Linux
+- 🤖 Exploring projects with IoT integration, backend, and data science
+- 💡 Passionate about learning and solving real-world problems with technology
 
 ---
 
-### 📊 Detalhes do perfil
+### 📊 Profile Details
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=orafaeldantas&theme=radical" alt="Resumo do perfil" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=orafaeldantas&theme=radical" alt="Profile Summary" />
 </p>
 <br>
 <div align="center"> 
@@ -34,10 +33,11 @@ Estou construindo minha carreira com uma base sólida em **engenharia de softwar
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/orafaeldantas/orafaeldantas/output/dist/light.svg" />
     <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/orafaeldantas/orafaeldantas/output/dist/dark.svg" />
   </picture>
- </div>
+</div>
 
+---
 
-### 🛠️ Tecnologias que uso
+### 🛠️ Technologies I Use
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -50,7 +50,7 @@ Estou construindo minha carreira com uma base sólida em **engenharia de softwar
 
 ---
 
-### 📈 Estatísticas
+### 📈 Stats
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=orafaeldantas&show_icons=true&theme=radical" />
@@ -66,15 +66,15 @@ Estou construindo minha carreira com uma base sólida em **engenharia de softwar
 
 ---
 
-### 📌 Projetos em destaque
+### 📌 Featured Projects
 
-- 🔒 [Autenticação com Flask e ESP32](https://github.com/orafaeldantas/automacao-rfid-esp32-pep) — sistema de automação com RFID usando ESP32 + API Python
-- 🧪 [Projeto de Teste com HTML + Flask] — exemplo de frontend se comunicando com backend REST
-- 📦 [Repositórios de estudo](https://github.com/orafaeldantas/curso-python) — onde estou documentando minha jornada de aprendizado
+- 🔒 [Authentication with Flask and ESP32](https://github.com/orafaeldantas/automacao-rfid-esp32-pep) — an automation system with RFID using ESP32 + Python API
+- 🧪 [HTML + Flask Test Project] — example of a frontend communicating with a REST backend
+- 📦 [Study Repositories](https://github.com/orafaeldantas/curso-python) — where I document my learning journey
 
 ---
 
-### 📬 Conecte-se comigo
+### 📬 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/orafaeldantas/)
 
@@ -85,5 +85,5 @@ Estou construindo minha carreira com uma base sólida em **engenharia de softwar
 </p>
 
 <p align="center">
-  Feito com 💻 e paixão por aprendizado contínuo.
+  Made with 💻 and a passion for continuous learning.
 </p>
