@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # executa todo dia à meia-noite
+    - cron: "0 0 * * *"  # Executa todo dia à meia-noite
   push:
     branches:
       - main
@@ -18,15 +18,26 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Inicializar repositório
+        run: git init
+
       - name: Configurar git
         run: |
           git config --global user.name "orafaeldantas"
           git config --global user.email "rafael.hfdantas@outlook.com"
-      
+
+      - name: Criar diretório dist (se necessário)
+        run: mkdir -p dist
+
       - name: Commit e push do SVG
         run: |
-          git add dist/github-contribution-grid-snake.svg
+          git add dist/
           git commit -m "Atualizar animação da cobrinha"
-          git push https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/orafaeldantas/orafaeldantas.git HEAD:output
+          git branch -M output
+          git remote add origin https://github.com/orafaeldantas/orafaeldantas.git || true
+          git push -f https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/orafaeldantas/orafaeldantas.git output
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
