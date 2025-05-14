@@ -2,7 +2,8 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Executa todos os dias à meia-noite
+    - cron: "0 0 * * *"  # Executa todos os dias à meia-noite UTC
+  workflow_dispatch:     # Permite execução manual
   push:
     branches:
       - main
@@ -10,7 +11,7 @@ on:
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
-    name: Geração da Cobrinha
+    name: Gera e envia a cobrinha
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v3
@@ -19,45 +20,19 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: orafaeldantas
-          github_token: ${{ secrets.GH_TOKEN }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Upload dos artefatos
-        uses: actions/upload-artifact@v4
-        with:
-          name: snake-artifacts
-          path: dist/
-
-  commit-snake:
-    needs: generate-snake
-    runs-on: ubuntu-latest
-    name: Commit da Cobrinha no repositório
-    steps:
-      - name: Baixar artefatos
-        uses: actions/download-artifact@v4
-        with:
-          name: snake-artifacts
-          path: dist/
-
-      - name: Checkout da branch output
-        uses: actions/checkout@v3
-        with:
-          ref: output
-          clean: false
-
-      - name: Configurar Git
+      - name: Commit da cobrinha na branch output
         run: |
-          git config --global user.name "orafaeldantas"
-          git config --global user.email "rafael.hfdantas@outlook.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit e push da cobrinha
-        run: |
-          if [ -d "dist" ]; then
-            git add dist/
-            git commit -m "Atualiza animação da cobrinha [automático]" || echo "Nada novo para commitar"
-            git push https://github-actions:${{ secrets.GH_TOKEN }}@github.com/orafaeldantas/orafaeldantas.git HEAD:output
-          else
-            echo "⚠️ A pasta dist/ não existe. Nada para commitar."
-          fi
+          git clone --branch=output https://github.com/orafaeldantas/orafaeldantas.git output
+          cp -r dist/* output/
+          cd output
+
+          git add .
+          git commit -m "Atualiza animação da cobrinha [auto]" || echo "Nada novo para commitar"
+          git push https://github-actions:${{ secrets.GH_TOKEN }}@github.com/orafaeldantas/orafaeldantas.git output
