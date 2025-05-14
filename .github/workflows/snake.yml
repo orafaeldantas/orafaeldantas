@@ -13,32 +13,27 @@ jobs:
     runs-on: ubuntu-latest
     name: Gera e envia a cobrinha
     steps:
-      - name: Checkout do repositório na branch main
+      - name: Checkout do repositório
         uses: actions/checkout@v3
-        with:
-          ref: main
 
       - name: Gera a cobrinha
         uses: Platane/snk@v3
         with:
           github_user_name: orafaeldantas
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Clona branch output para upload dos arquivos
+      - name: Commit da cobrinha na branch output
         run: |
-          git clone --branch=output https://github.com/orafaeldantas/orafaeldantas.git output
-          
-      - name: Copia os arquivos gerados para a branch output
-        run: |
-          cp -r dist/* output/
-          
-      - name: Commit e push na branch output
-        run: |
-          cd output
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
+
+          git clone --branch=output https://github.com/orafaeldantas/orafaeldantas.git output
+          cp github-contribution-grid-snake.svg output/
+          cp github-contribution-grid-snake-dark.svg output/
+          cd output
+
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
           git commit -m "Atualiza animação da cobrinha [auto]" || echo "Nada novo para commitar"
           git push https://github-actions:${{ secrets.GH_TOKEN }}@github.com/orafaeldantas/orafaeldantas.git output
