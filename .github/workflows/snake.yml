@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Executa todos os dias
+    - cron: "0 0 * * *"  # Executa todos os dias à meia-noite
   push:
     branches:
       - main
@@ -19,7 +19,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: orafaeldantas
-          github_user: true
+          github_token: ${{ secrets.GH_TOKEN }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
