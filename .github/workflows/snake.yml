@@ -13,8 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Gera e envia a cobrinha
     steps:
-      - name: Checkout do repositório
+      - name: Checkout do repositório na branch main
         uses: actions/checkout@v3
+        with:
+          ref: main
 
       - name: Gera a cobrinha
         uses: Platane/snk@v3
@@ -24,15 +26,19 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Commit da cobrinha na branch output
+      - name: Clona branch output para upload dos arquivos
         run: |
+          git clone --branch=output https://github.com/orafaeldantas/orafaeldantas.git output
+          
+      - name: Copia os arquivos gerados para a branch output
+        run: |
+          cp -r dist/* output/
+          
+      - name: Commit e push na branch output
+        run: |
+          cd output
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          git clone --branch=output https://github.com/orafaeldantas/orafaeldantas.git output
-          cp -r dist/* output/
-          cd output
-
           git add .
           git commit -m "Atualiza animação da cobrinha [auto]" || echo "Nada novo para commitar"
           git push https://github-actions:${{ secrets.GH_TOKEN }}@github.com/orafaeldantas/orafaeldantas.git output
