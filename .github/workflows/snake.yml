@@ -24,16 +24,6 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Listar arquivos no repositório
-        run: |
-          echo "Arquivos no repositório após geração:"
-          ls -la || echo "Erro ao listar arquivos"
-      
-      - name: Listar arquivos gerados na pasta dist/
-        run: |
-          echo "Arquivos em dist/"
-          ls -la dist || echo "Pasta dist não encontrada"
-
       - name: Upload dos artefatos
         uses: actions/upload-artifact@v4
         with:
@@ -51,12 +41,7 @@ jobs:
           name: snake-artifacts
           path: dist/
 
-      - name: Verificar conteúdo baixado
-        run: |
-          echo "Conteúdo de dist após download:"
-          ls -la dist || echo "Nada foi baixado"
-
-      - name: Checkout do repositório
+      - name: Checkout da branch output
         uses: actions/checkout@v3
         with:
           ref: output
@@ -66,10 +51,6 @@ jobs:
         run: |
           git config --global user.name "orafaeldantas"
           git config --global user.email "rafael.hfdantas@outlook.com"
-
-      - name: Verificar se a branch output existe
-        run: |
-          git branch -r 
 
       - name: Commit e push da cobrinha
         run: |
