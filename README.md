@@ -13,7 +13,7 @@
 ### 🚀 About Me
 
 I'm a developer passionate about technology, focused on projects with **ESP32**, **Python**, and **HTML**.  
-I'm building my career with a solid foundation in **Software Engineering** to apply it in the field of **Data Science**.
+I'm building my career with a solid foundation in **Software Engineering** to apply it in the field of **Data Science**. 
 
 - 🎯 Currently transitioning my career
 - 🧠 Studying Software Engineering, Python, and Linux
