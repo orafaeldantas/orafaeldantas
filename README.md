@@ -1,58 +1,102 @@
 <br>
 <div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=40&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&height=70&lines=Hello!+Welcome.;My+name+is+Rafael.;Feel+Free!" alt="Typing SVG" /></a>
-  <!-- https://github.com/DenverCoder1/readme-typing-svg?tab=readme-ov-file -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=40&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&height=70&lines=Hello!+Welcome.;I'm+Rafael+Dantas.;Backend+%26+Systems+Engineer." alt="Typing SVG" />
+  </a>
 </div>  
+
 <br>
+
 <h3 align="center">
-  Software Engineer in training | Focused on IoT, Python and Backend
+Backend & Systems Engineer | Python | IoT | Distributed Systems
 </h3>
 
 ---
 
-### 🚀 About Me
+# 👨‍💻 About Me
 
-I'm a developer passionate about technology, focused on projects with **ESP32**, **Python**, and **HTML**.  
-I'm building my career with a solid foundation in **Software Engineering** to apply it in the field of **Data Science**. 
+I'm a **Software Engineer focused on backend development and system architecture**, with strong foundations in computing and low-level systems.
 
-- 🎯 Currently transitioning my career
-- 🧠 Studying Software Engineering, Python, and Linux
-- 🤖 Exploring projects with IoT integration, backend, and data science
-- 💡 Passionate about learning and solving real-world problems with technology
+My background in **Electrical Engineering (with emphasis on computing)** shaped the way I approach software: understanding systems end-to-end — from hardware and networking layers to backend services running in production.
 
----
+I enjoy building systems that are **reliable, efficient and scalable**, combining backend engineering with **IoT and embedded systems**.
 
-### 📊 Profile Details
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=orafaeldantas&theme=radical" alt="Profile Summary" />
-</p>
-<br>
-<div align="center"> 
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/orafaeldantas/orafaeldantas/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/orafaeldantas/orafaeldantas/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/orafaeldantas/orafaeldantas/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
+Currently I work mainly with **Python backend development**, **API design**, **database modeling**, and **containerized environments**, while also developing firmware for **ESP32-based IoT integrations**.
 
 ---
 
-### 🛠️ Technologies I Use
+# 🧠 Engineering Focus
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask" />
-  <img src="https://img.shields.io/badge/ESP32-black?style=for-the-badge&logo=espressif" />
-  <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</p>
+My main interests are centered around:
+
+- Backend Engineering
+- Distributed Systems
+- System Architecture
+- IoT Systems
+- Performance & Reliability
+- Linux-based infrastructure
 
 ---
 
-### 📈 Stats
+# 🛠 Tech Stack
+
+### Backend
+- Python
+- Flask
+- FastAPI (learning & experimenting)
+- REST API design
+
+### Databases
+- PostgreSQL
+- MySQL
+- SQL query optimization
+- Relational data modeling
+
+### Infrastructure
+- Docker
+- Docker Compose
+- Linux
+- Git
+
+### Systems & IoT
+- C / C++
+- ESP32 firmware
+- Hardware/software integration
+- Embedded systems
+
+---
+
+# 📌 Featured Projects
+
+### 📦 Exactum — Smart Inventory Management
+Backend system for **predictive inventory control**, focused on helping businesses optimize stock levels based on product demand.
+
+Main features:
+
+- REST API development with Python
+- PostgreSQL relational modeling
+- Containerized services with Docker
+- Planned IoT integration using ESP32 and RFID automation
+
+Repository:
+https://github.com/orafaeldantas/exactum-api
+
+---
+
+### 🔐 RFID Automation System (ESP32 + API)
+
+IoT automation system using **ESP32 + RFID + Python backend**, enabling hardware authentication and communication with backend services.
+
+Key aspects:
+
+- ESP32 firmware development
+- Hardware integration
+- REST API communication
+- IoT automation workflows
+
+---
+
+# 📊 GitHub Stats
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=orafaeldantas&show_icons=true&theme=radical" />
@@ -68,17 +112,10 @@ I'm building my career with a solid foundation in **Software Engineering** to ap
 
 ---
 
-### 📌 Featured Projects
+# 📬 Connect with Me
 
-- 🔒 [Authentication with Flask and ESP32](https://github.com/orafaeldantas/automacao-rfid-esp32-pep) — an automation system with RFID using ESP32 + Python API
-- 🧪 [HTML + Flask Test Project] — example of a frontend communicating with a REST backend
-- 📦 [Study Repositories](https://github.com/orafaeldantas/curso-python) — where I document my learning journey
-
----
-
-### 📬 Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/orafaeldantas/)
+LinkedIn  
+https://www.linkedin.com/in/orafaeldantas/
 
 ---
 
@@ -87,5 +124,5 @@ I'm building my career with a solid foundation in **Software Engineering** to ap
 </p>
 
 <p align="center">
-  Made with 💻 and a passion for continuous learning.
+Building systems, learning deeply, and constantly improving as an engineer.
 </p>
