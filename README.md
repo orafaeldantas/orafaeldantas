@@ -1,22 +1,16 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Rafael%20Dantas&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=45" alt="Rafael Dantas" width="100%"/>
 
-  <h3>Backend Engineer · Python · PostgreSQL · Linux</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e3a5f&height=180&section=header&text=Rafael%20Dantas&fontSize=52&fontColor=e2e8f0&animation=fadeIn&fontAlignY=45" alt="Rafael Dantas" width="100%"/>
 
-  <p>Building production-grade business systems —<br/>
-  from database architecture and API design to containerized deployment on Linux infrastructure.</p>
+<h3>Backend Engineer · Python · PostgreSQL · Linux</h3>
 
-  <a href="https://www.linkedin.com/in/orafaeldantas/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/orafaeldantas">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  &nbsp;
-  <a href="https://exactum.app.br">
-    <img src="https://img.shields.io/badge/Exactum%20ERP-Live-22c55e?style=for-the-badge&logoColor=white" alt="Exactum Live"/>
-  </a>
+<p>Building production-grade business systems, <br/>
+from database architecture and API design to containerized deployment on Linux infrastructure.</p>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/orafaeldantas/) &nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/orafaeldantas) &nbsp;
+[![Exactum ERP](https://img.shields.io/badge/Exactum%20ERP-Live-22c55e?style=for-the-badge&logoColor=white)](https://exactum.app.br)
+
 </div>
 
 ---
@@ -40,15 +34,8 @@ Currently designing, developing, and operating **Exactum ERP**: a multi-tenant p
 ## Featured Projects
 
 ### Exactum ERP
-<p align="left">
-  <a href="https://github.com/orafaeldantas/exactum-api">
-    <img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repository"/>
-  </a>
-  &nbsp;
-  <a href="https://exactum.app.br">
-    <img src="https://img.shields.io/badge/Production-Live-22c55e?style=flat-square" alt="Production"/>
-  </a>
-</p>
+[![Repository](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/orafaeldantas/exactum-api) &nbsp;
+[![Production](https://img.shields.io/badge/Production-Live-22c55e?style=flat-square)](https://exactum.app.br)
 
 > Multi-tenant ERP for inventory management, sales operations and POS. Designed, built, and operated from scratch.
 
@@ -140,5 +127,5 @@ Best fit for teams building scalable systems, distributed services, and engineer
 </p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,11,6&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,100:0f172a&height=100&section=footer" width="100%"/>
 </div>
