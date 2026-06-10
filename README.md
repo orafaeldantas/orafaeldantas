@@ -1,5 +1,11 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,60:0c2031,100:163356&height=200&section=header&text=Rafael%20Dantas&fontSize=52&fontColor=58a6ff&animation=fadeIn&fontAlignY=42&desc=Backend%20Engineer%20%C2%B7%20System Design%20%C2%B7%20Python%20%C2%B7%20Linux&descAlignY=62&descSize=18&descColor=8b949e" alt="Rafael Dantas" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Rafael%20Dantas&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=45" alt="Rafael Dantas" width="100%"/>
+
+  <h3>Backend Engineer · Python · PostgreSQL · Linux</h3>
+
+  <p>Building production-grade business systems —<br/>
+  from database architecture and API design to containerized deployment on Linux infrastructure.</p>
+
   <a href="https://www.linkedin.com/in/orafaeldantas/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
@@ -12,11 +18,6 @@
     <img src="https://img.shields.io/badge/Exactum%20ERP-Live-22c55e?style=for-the-badge&logoColor=white" alt="Exactum Live"/>
   </a>
 </div>
-<br/>
-<p align="center">
-  <b>Backend engineer building production-grade business systems,</b> <br/>
-  from database architecture and API design to containerized deployment on Linux infrastructure.
-</p>
 
 ---
 
@@ -137,6 +138,7 @@ Best fit for teams building scalable systems, distributed services, and engineer
     <img src="https://img.shields.io/badge/Let's%20connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </p>
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:163356,100:0d1117&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,11,6&height=100&section=footer" width="100%"/>
 </div>
