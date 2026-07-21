@@ -37,18 +37,20 @@ Currently designing, developing, and operating **Exactum ERP**: a multi-tenant p
 [![Repository](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/orafaeldantas/exactum-api) &nbsp;
 [![Production](https://img.shields.io/badge/Production-Live-22c55e?style=flat-square)](https://exactum.app.br)
 
-> Multi-tenant ERP for inventory management, sales operations and POS. Designed, built, and operated from scratch.
+> Multi-tenant ERP for inventory management, sales operations and POS. Designed, built, and operated from scratch. Currently in advanced alpha — pre-launch, no users yet.
 
-**System Capabilities:**
+**Live / Implemented:**
 - Schema-level multi-tenant architecture
 - Inventory management and sales workflows (POS)
 - Financial reporting dashboards
-- JWT-based authentication with role-based access control
+- JWT authentication (httpOnly cookies) with RBAC and impersonate functionality
+- Redis caching layer
+- Unit test coverage
 - Automated CI/CD pipeline and Linux VPS deployment
 
 **Architecture & Engineering Work:**
 - Designed a multi-tenant architecture from scratch using schema isolation
-- Implemented authentication and authorization using JWT (access + refresh tokens)
+- Implemented authentication and authorization using JWT (httpOnly access + refresh tokens)
 - Built versioned REST APIs with structured error handling
 - Defined database migration strategy using Alembic across environments
 - Containerized application and orchestrated deployment with Docker and Nginx
@@ -58,16 +60,20 @@ Currently designing, developing, and operating **Exactum ERP**: a multi-tenant p
 | Layer | Approach |
 | :--- | :--- |
 | **Multi-tenancy** | Schema-level isolation with SQLAlchemy scoped sessions |
-| **Authentication** | JWT access/refresh with RBAC |
+| **Authentication** | JWT (httpOnly) access/refresh with RBAC + impersonate |
+| **Caching** | Redis |
 | **API Design** | Versioned REST APIs with structured error responses |
 | **Migrations** | Alembic with environment-aware revision control |
 | **Deployment** | Docker + Nginx + GitHub Actions → Linux VPS |
+
+**Studying / Roadmap:** RabbitMQ · Grafana/Prometheus observability · DDD/DTOs · Groq AI-powered predictive inventory analytics
 
 <br>
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask"/>
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
@@ -105,21 +111,14 @@ Data
 └── Data Engineering & pipeline architecture
 ```
 
-## GitHub Stats
- 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=orafaeldantas&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=orafaeldantas&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6" />
-</div>
-
 ---
- 
+
 ## Open to Opportunities
- 
+
 Backend engineering roles focused on backend systems, platform engineering, and infrastructure-heavy products.
 
 Best fit for teams building scalable systems, distributed services, and engineering-driven products.
- 
+
 <p align="center">
   <a href="https://www.linkedin.com/in/orafaeldantas/">
     <img src="https://img.shields.io/badge/Let's%20connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
